@@ -138,6 +138,13 @@ a:hover,a:focus{ text-decoration: none}
     overflow: hidden;
     padding: 10px 0;
 }
+
+.top_nav .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .list-inline.info {
     float: left;
     margin: 0;
@@ -596,18 +603,10 @@ footer {
     color: #d7a300;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /* Responsive Styles for various devices */
 @media (min-width: 1600px) {
-    .container{ width: 1200px; display: flex;
-        justify-content: center;
-        align-items: center;}
+    .container{ width: 1200px; }
     .carousel-inner > .item > a > img, .carousel-inner > .item > img {
         height: 740px;
     }
