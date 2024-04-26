@@ -128,10 +128,6 @@ a:hover,a:focus{ text-decoration: none}
 
 /*End off Preloader*/
 
-
-
-
-
 /* Top Nav */
 .top_nav {
     background: #1a6144 none repeat scroll 0 0;
@@ -796,7 +792,9 @@ footer {
         margin-top: 10px;
     }
 
-
+    .hero-hide-mob {
+        display: none;
+    }
 }
 
 @media (max-width: 479px) {
@@ -867,5 +865,8 @@ footer {
         padding: 8px 3px;
     }
 
+    .hero-hide-mob {
+        display: none;
+    }
 
 }
